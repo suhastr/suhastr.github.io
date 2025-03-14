@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suhas Thandaga Ramesh - Backend & DevOps Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            padding: 20px;
+        }
+        .skill-badge {
+            background-color: #f3f4f6;
+            color: #111827;
+            font-weight: 600;
+            padding: 10px 16px;
+            border-radius: 50px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .skill-badge:hover {
+            background-color: #e5e7eb;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
 
@@ -36,21 +58,30 @@
     <section id="about" class="py-12 text-center">
         <h2 class="text-3xl font-semibold">About Me</h2>
         <p class="mt-4 text-lg max-w-3xl mx-auto">
-            Backend & DevOps Engineer with 2+ years of experience in building scalable microservices, optimizing CI/CD pipelines, and deploying cloud infrastructure on AWS. Proficient in Python, Java, Spring Boot, Docker, Kubernetes, and Terraform.
+            Backend & DevOps Engineer with 3 years of experience in building scalable microservices, optimizing CI/CD pipelines, and deploying cloud infrastructure on AWS. Proficient in Python, Java, Spring Boot, Docker, Kubernetes, and Terraform.
         </p>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-12 bg-gray-200">
-        <h2 class="text-3xl font-semibold text-center">Skills</h2>
-        <div class="max-w-4xl mx-auto mt-6 grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
-            <div class="bg-white shadow-lg p-4 rounded-lg">Python, Java, SQL, Bash</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">Django, Spring Boot, REST APIs</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">AWS (EC2, S3, Lambda, RDS, DynamoDB, API Gateway, IAM, ECS, EKS)</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">Docker, Kubernetes, Terraform</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">CI/CD (Jenkins, GitHub Actions, GitLab CI)</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">Monitoring (Prometheus, Grafana, CloudWatch)</div>
-            <div class="bg-white shadow-lg p-4 rounded-lg">PostgreSQL, MySQL, MongoDB, Redis</div>
+    <section id="skills" class="py-12 bg-gray-200 text-center">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Bash</span>
+            <span class="skill-badge">Django</span>
+            <span class="skill-badge">Spring Boot</span>
+            <span class="skill-badge">REST APIs</span>
+            <span class="skill-badge">AWS</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">Kubernetes</span>
+            <span class="skill-badge">Terraform</span>
+            <span class="skill-badge">CI/CD (Jenkins, GitHub Actions, GitLab CI)</span>
+            <span class="skill-badge">Prometheus</span>
+            <span class="skill-badge">Grafana</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">MongoDB</span>
         </div>
     </section>
 
