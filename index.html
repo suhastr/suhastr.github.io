@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhas Thandaga Ramesh - Backend & DevOps Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-xl font-bold">Suhas TR</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#experience" class="hover:text-gray-400">Experience</a></li>
+                    <li><a href="#education" class="hover:text-gray-400">Education</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-600 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Hi, I'm <span class="text-yellow-300">Suhas Thandaga Ramesh</span></h1>
+        <p class="mt-3 text-lg">Backend & DevOps Engineer | Building Scalable Systems with Python, Java, and AWS</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 text-center">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            Backend & DevOps Engineer with 3 years of experience in building scalable microservices, optimizing CI/CD pipelines, and deploying cloud infrastructure on AWS. Proficient in Python, Java, Spring Boot, Docker, Kubernetes, and Terraform.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-200">
+        <h2 class="text-3xl font-semibold text-center">Projects</h2>
+        <div class="flex flex-wrap justify-center gap-6 mt-6" id="projectsContainer"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-12">
+        <h2 class="text-3xl font-semibold text-center">Experience</h2>
+        <div class="max-w-3xl mx-auto mt-6 bg-white shadow-lg p-6 rounded-lg">
+            <h3 class="text-xl font-bold">Application Development Engineer</h3>
+            <p class="text-gray-600">Accenture - 2021-2023</p>
+            <p class="mt-2">Developed and optimized backend pricing and inventory APIs handling 100,000+ product updates daily. Automated workflows, implemented CI/CD pipelines, and improved system monitoring using AWS, Docker, and Kubernetes.</p>
+        </div>
+        <div class="max-w-3xl mx-auto mt-6 bg-white shadow-lg p-6 rounded-lg">
+            <h3 class="text-xl font-bold">Software Developer</h3>
+            <p class="text-gray-600">Techmill Technologies (Nagarro) - 2020-2021</p>
+            <p class="mt-2">Developed banking services using Java, Spring Boot, and Temenos Transact T24. Optimized APIs, handled account modifications, and ensured COB batch processing integrity.</p>
+        </div>
+        <div class="max-w-3xl mx-auto mt-6 bg-white shadow-lg p-6 rounded-lg">
+            <h3 class="text-xl font-bold">Backend Developer Intern</h3>
+            <p class="text-gray-600">ISIRI Technologies - 2020</p>
+            <p class="mt-2">Developed backend APIs, optimized SQL queries, and enhanced customer registration processes for improved system reliability.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-12 bg-gray-200">
+        <h2 class="text-3xl font-semibold text-center">Education</h2>
+        <p class="text-lg text-center mt-4">MS in Computer Science, George Mason University, USA (2023-2025)</p>
+        <p class="text-lg text-center">BE in Information Science, Vidyavardhaka College of Engineering, India (2016-2020)</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12">
+        <h2 class="text-3xl font-semibold text-center">Contact Me</h2>
+        <form id="contactForm" class="max-w-lg mx-auto mt-6 bg-white shadow-lg p-6 rounded-lg">
+            <input type="text" placeholder="Your Name" class="w-full p-2 mb-3 border rounded" required>
+            <input type="email" placeholder="Your Email" class="w-full p-2 mb-3 border rounded" required>
+            <textarea placeholder="Your Message" class="w-full p-2 mb-3 border rounded" required></textarea>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded w-full">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-4">
+        <p>© 2025 Suhas Thandaga Ramesh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
